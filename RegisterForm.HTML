@@ -1,0 +1,148 @@
+.<!doctype>
+<html>
+    <head>
+        <title>Register Form</title>
+    </head>
+
+    <body>
+        <form>
+           <b> <label>Enter First Name</label></b>
+           
+            <input type = "text" placeholder="Enter First Name" required minlength = "2" maxlenght=" 15">
+
+            <b><label>Enter Last Name</label></b>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text"> <br>
+
+          <!--Email-->
+          <p>  <b> <label>Enter Email ID</label> &nbsp; &nbsp;  <input type="text"></b> <b> <label>Enter The Password</label></b> <input type="password"> </p>  
+             
+      
+
+             <div> <b>
+                <label>Select Gender&nbsp;:&nbsp;&nbsp;</label>
+                <input type="radio" name="gender">Male &nbsp;
+                <input type="radio" name="gender">Female&nbsp;
+                <input type="radio" name="gender" chekced>Other
+             </b>       
+              </div>
+
+              <p>
+                <div>
+                 <b> <label>Enter Age</label></b>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>:</b> <input type = "number" name = "age"
+                </div>
+              </p>
+
+              <div>
+                <p><label><b>Enter Mobile Number</b></label> <b>:</b> <input type="number"required></p>    
+                <p><label><b>Enter Adhar Number</b></label>&nbsp;&nbsp;<b>:</b> <input type="number"required></p>              
+              </div>
+
+            <div>
+                 <b><label>Select City:</label></b>  
+                   <select>
+                    <b>
+                           <option>Bagalkot</option>
+                           <option>Bangalore</option>
+                           <option>Bidar</option>
+                           <option>Bilagi</option>
+                        </b>
+                   </select>
+            </div>
+            
+            <p>
+            <div>
+              <b><label>Select Course:</label></b>  
+                <select>
+                 <b>
+                        <option>JAVA</option>
+                        <option>PYTHON</option>
+                        <option>C++</option>
+                        <option>C</option>
+                     </b>
+                </select>
+         </div>
+        </p>
+     
+             <!--date of birth,mob no and adress-->
+             <tr>
+              <td>
+              <b> <p>Date of Birth:</b> <input type = "Date";required></p> 
+               
+              </td>
+             </tr>
+
+             <tr>
+              <td>
+                <b>Hobbies:</b>
+              </td>
+              <td>
+                <input type = "Checkbox" Singing>singing
+                <input type = "Checkbox" Dancing>dancing
+                <input type = "Checkbox" Drawing>drawing
+              </td>
+              </tr>
+        
+              <tr>
+                 <td>
+                 
+                 <p> <b>Mobile Number</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>:</b>&nbsp;&nbsp;&nbsp;<input type = "tel" placeholder ="+91 1234567890"></p>
+                 <p> <b>Emergency Number</b>&nbsp;&nbsp;&nbsp;&nbsp;<b>:</b>&nbsp; <input type = "number"></p>
+                 </td>
+                 </tr>
+                 
+                 <tr>
+                  <td>
+                    <p><b>Enter Valid Adress &nbsp;&nbsp;&nbsp;&nbsp; <b>:</b>&nbsp;&nbsp;&nbsp;<input type = "Text"></b></p>
+                  </td>
+                 </tr>
+
+                 <div>
+                  <b><label>Select Education:</label></b> 
+                    <select>
+                     <b>
+                            <option>10+2</option>
+                            <option>Graduation</option>
+                            <option>Post Graduation</option>
+                            <option>Others</option>
+                         </b>
+                    </select>
+             </div>
+ 
+              <tr>
+               
+                <td>
+                 <p><b> Adress:</b>&nbsp;&nbsp;<textarea rowspan = "14" colspan = "28" placeholder = "Adress"></textarea></p> 
+                </td>
+              </tr>
+
+          
+
+<!--Naukri Website-->
+
+      <div>
+        <label>
+         <b>Select File/Resume</b> 
+        </label>
+        <input type = "file" name = "Uploadfile">
+      </div>
+
+      <p>
+      <tr>
+        <td>
+          <input type = "Submit" value = "Submit">
+              <!--or-->
+         <!-- <button type = "Submit">Submit</button>-->
+          <input type = "Reset" value = "Reset">
+         </td>
+      </tr>
+    </p>
+
+<!--html 5 validation-->
+<!--how to turn off auto suggestions in html5-->
+<form autocomplete="off">
+
+        </form>
+    </form>
+</body>
+</html>
